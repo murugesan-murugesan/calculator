@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="display">
+
+        <div class="buttons">
+            <button class="operator" onclick="deletevalue()">Ac</button>
+            <button class="operator" onclick="del()">C</button>
+            <button class="operator" onclick="input('%')">%</button>
+            <button class="operator" onclick="input('/')">/</button>
+
+            <button onclick="getinput('7')">7</button>
+            <button onclick="getinput('8')">8</button>
+            <button onclick="getinput('9')">9</button>
+            <button class="operator" onclick="input('*')">*</button>
+
+            <button onclick="getinput('4')">4</button>
+            <button onclick="getinput('5')">5</button>
+            <button onclick="getinput('6')">6</button>
+            <button class="operator" onclick="input('+')">+</button>
+
+            <button onclick="getinput('1')">1</button>
+            <button onclick="getinput('2')">2</button>
+            <button onclick="getinput('3')">3</button>
+            <button class="operator" onclick="input('-')">-</button>
+
+            <button onclick="getinput('0')">0</button>
+            <button onclick="getinput('00')">00</button>
+            <button onclick="getinput('.')">.</button>
+            <button class="operator" onclick="calculate()">=</button>
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="calc.js"></script>
+</body>
+</html>
